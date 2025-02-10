@@ -23,7 +23,7 @@ If the API becomes available again, an automated data retrieval option can be ad
 │-- 📁 venv/                  # Virtual environment (optional)
 ```
 
----![alt text](image-1.png)
+---
 
 ## 📥 Data Download Instructions
 1. **Go to the TAMSAT Data Portal:**  
@@ -32,7 +32,6 @@ If the API becomes available again, an automated data retrieval option can be ad
 3. **Choose the time period:** 1989 - 2004
 4. **Select the file format:** CSV (recommended) or NetCDF
 5. **Download the data files** and **save them inside the `data/` folder** in your project directory.
-
 
 
 ## 🛠 Installation
