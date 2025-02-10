@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TAMSAT Rainfall Data Processing (Manual Download)
 
 ## Overview
@@ -110,3 +111,7 @@ This script is flexible! You can:
 - **Support alternative data formats**
 
 For additional features, feel free to modify `tamsat_manual_processing.py` accordingly.
+=======
+# TAMSAT_Rainfall_Project
+TAMSAT_Rainfall_Project
+>>>>>>> bbea3fa (Initial commit)
