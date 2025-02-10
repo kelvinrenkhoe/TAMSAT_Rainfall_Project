@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # TAMSAT Rainfall Data Processing (Manual Download)
 
 ## Overview
@@ -24,7 +23,7 @@ If the API becomes available again, an automated data retrieval option can be ad
 │-- 📁 venv/                  # Virtual environment (optional)
 ```
 
----
+---![alt text](image-1.png)
 
 ## 📥 Data Download Instructions
 1. **Go to the TAMSAT Data Portal:**  
@@ -111,7 +110,3 @@ This script is flexible! You can:
 - **Support alternative data formats**
 
 For additional features, feel free to modify `tamsat_manual_processing.py` accordingly.
-=======
-# TAMSAT_Rainfall_Project
-TAMSAT_Rainfall_Project
->>>>>>> bbea3fa (Initial commit)
