@@ -30,8 +30,9 @@ If the API becomes available again, an automated data retrieval option can be ad
    🔗 [https://data.tamsat.org.uk/data-download/rainfall/](https://data.tamsat.org.uk/data-download/rainfall/)
 2. **Select the region:** Nigeria
 3. **Choose the time period:** 1989 - 2004
-4. **Select the file format:** CSV (recommended) or NetCDF
-5. **Download the data files** and **save them inside the `data/` folder** in your project directory.
+4  **Choose the data type: Precipitation (Rainfall)
+5. **Select the file format:** CSV (recommended) or NetCDF
+6. **Download the data files** and **save them inside the `data/` folder** in your project directory.
 
 
 ## 🛠 Installation
