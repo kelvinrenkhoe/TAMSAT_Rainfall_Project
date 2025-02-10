@@ -33,7 +33,7 @@ If the API becomes available again, an automated data retrieval option can be ad
 4. **Select the file format:** CSV (recommended) or NetCDF
 5. **Download the data files** and **save them inside the `data/` folder** in your project directory.
 
----
+
 
 ## 🛠 Installation
 Before running the script, ensure you have Python installed along with the necessary libraries. If not, install them using:
