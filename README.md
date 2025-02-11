@@ -5,7 +5,6 @@ This project processes **manually downloaded** TAMSAT rainfall estimates for Nig
 
 If the API becomes available again, an automated data retrieval option can be added.
 
----
 
 ## 📂 File Structure
 ```
@@ -78,7 +77,6 @@ This will:
 - **Process and merge the data** into a single file.
 - **Save the cleaned dataset** as `processed_tamsat_nigeria.csv`.
 
----
 
 ## 🔄 API Option (If Available in the Future)
 If TAMSAT reinstates API access, you can modify the script to automate downloads. Keep an eye on:
