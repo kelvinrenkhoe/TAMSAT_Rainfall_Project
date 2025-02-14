@@ -5,7 +5,6 @@ This project processes **manually downloaded** TAMSAT rainfall estimates for Nig
 
 If the API becomes available again, an automated data retrieval option can be added.
 
----
 
 ## 📂 File Structure
 ```
@@ -21,6 +20,7 @@ If the API becomes available again, an automated data retrieval option can be ad
 │-- 📄 README.md              # Documentation
 │-- 📄 requirements.txt       # Python dependencies
 │-- 📁 venv/                  # Virtual environment (optional)
+│-- 📄 image.png               # Screenshot of download instructions
 ```
 
 ---
@@ -30,8 +30,14 @@ If the API becomes available again, an automated data retrieval option can be ad
    🔗 [https://data.tamsat.org.uk/data-download/rainfall/](https://data.tamsat.org.uk/data-download/rainfall/)
 2. **Select the region:** Nigeria
 3. **Choose the time period:** 1989 - 2004
-4. **Select the file format:** CSV (recommended) or NetCDF
-5. **Download the data files** and **save them inside the `data/` folder** in your project directory.
+4. **Choose the data type:** **Precipitation (Rainfall)**
+5. **Select the file format:** CSV (recommended) or NetCDF
+6. **Fill in the details as shown in the image below:**
+   ![TAMSAT Data Selection](image.png)
+7. **Enter your email address** and **submit the job**.
+8. **Once the download link is received via email, use this link to download:**  
+   🔗 [Download Processed Data](https://data.tamsat.org.uk/data?email=kelvinosarenk%40gmail.com&ref=tamsat-subset)
+9. **Save the files inside the `data/` folder** in your project directory.
 
 ---
 
@@ -67,10 +73,10 @@ python run_manual_processing.py
 ```
 This will:
 - **Read all downloaded TAMSAT files** from the `data/` folder.
+- **Extract precipitation (rainfall) data** for Nigeria.
 - **Process and merge the data** into a single file.
 - **Save the cleaned dataset** as `processed_tamsat_nigeria.csv`.
 
----
 
 ## 🔄 API Option (If Available in the Future)
 If TAMSAT reinstates API access, you can modify the script to automate downloads. Keep an eye on:
